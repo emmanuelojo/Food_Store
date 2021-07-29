@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "src/assets/images/beans.jpeg",
+      "price": 12
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "https://via.placeholder.com/150x100",
+      "price": 12
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "https://via.placeholder.com/150x100",
+      "price": 12
+    },
+    {
+      "id": 4,
+      "title": "Product 4",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "https://via.placeholder.com/150x100",
+      "price": 12
+    },
+    {
+      "id": 5,
+      "title": "Product 5",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "https://via.placeholder.com/150x100",
+      "price": 12
+    },
+    {
+      "id": 6,
+      "title": "Product 6",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "https://via.placeholder.com/150x100",
+      "price": 12
+    },
+    {
+      "id": 7,
+      "title": "Product 7",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "https://via.placeholder.com/150x100",
+      "price": 12
+    },
+    {
+      "id": 8,
+      "title": "Product 8",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "https://via.placeholder.com/150x100",
+      "price": 12
+    },
+    {
+      "id": 9,
+      "title": "Product 9",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "https://via.placeholder.com/150x100",
+      "price": 12
+    },
+    {
+      "id": 10,
+      "title": "Product 10",
+      "description": "Lorem Quam distinctio asperiores nihil nostrum ",      
+      "imageUrl": "https://via.placeholder.com/150x100",
+      "price": 12
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Grahamsss",
+      "email": "Sincere@april.biz"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "email": "Nathan@yesenia.net"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

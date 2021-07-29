@@ -1,14 +1,19 @@
 <template>
   <div>
-    <product-list />
+    <food-slider />
+    <Menu />
   </div>
 </template>
 
 <script>
-import ProductList from "../components/ProductList";
+import FoodSlider from '@/components/FoodSlider.vue'
+import Menu  from '@/components/Menu.vue'
+
+
 export default {
   components: {
-    ProductList
+    FoodSlider,
+    Menu
   }
 };
 </script>
