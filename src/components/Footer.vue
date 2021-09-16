@@ -43,8 +43,10 @@ export default {
 <style scoped>
 
 .footer {
-  margin-top: 10%;
-  background: black;
+  /* margin-top: 10%; */
+  margin-bottom: 0;
+  bottom: 0;
+  background: rgb(30, 30, 53);
 }
 
 .end-title {

@@ -1,6 +1,7 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+    <nav class="navbar navbar-expand-lg">
       <button
         class="navbar-toggler"
         type="button"
@@ -28,14 +29,14 @@
             <a class="nav-link" href="/food">Food Store</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="/services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/contact">Contact</a>
           </li>
         </ul>
       </div>
-      <div>
+      <!-- <div>
         <div class="dropdown open">
           <button
             class="btn btn-secondary dropdown-toggle"
@@ -51,27 +52,63 @@
             <mini-cart />
           </div>
         </div>
-      </div> 
+      </div>  -->
+      <!-- <input
+      type="text"
+      class="search-bar"
+      v-model="search"
+      :search="search"
+      placeholder="Search food items"
+    /> -->
+      <div class="btns">
+        <div class="cartBtn">
+          <div class="cartIcon">
+            <p>{{ cartItemCount }}</p>
+            <router-link :to="{ name: 'cartList' }" class="router"
+              ><i class="fa fa-shopping-cart"></i
+            ></router-link>
+          </div>
+        </div>
+        <div class="cartBtn">
+          <div class="cartIcon">
+            <p>{{ wishListCount }}</p>
+            <router-link :to="{ name: 'wishList' }" class="router"
+              ><i class="fa fa-heart"></i
+            ></router-link>
+          </div>
+        </div>
+      </div>
     </nav>
   </div>
 </template>
 
 <script>
-import MiniCart from "./MiniCart";
+// import MiniCart from "./MiniCart";
 export default {
-  components: { MiniCart },
+  // components: { MiniCart },
+  data() {
+    return {
+      search: " ",
+    };
+  },
   computed: {
     cartItemCount() {
       return this.$store.getters.cartItems.length;
+    },
+    wishListCount() {
+      return this.$store.getters.wishListCount;
     },
   },
 };
 </script>
 
 <style scoped>
-.bg-light {
-  background-color: #000 !important;
+.navbar {
+  background: rgb(30, 30, 53);
 }
+/* .bg-light {
+  background: rgb(49, 49, 78);
+} */
 .navbar-brand {
   color: goldenrod;
   width: 50px;
@@ -89,24 +126,24 @@ export default {
 .nav-item {
   margin: 0 20px;
 }
-.navbar-light .navbar-toggler {
+.navbar .navbar-toggler {
   color: goldenrod;
   border-color: goldenrod;
 }
-.navbar-light .navbar-toggler-icon i {
+.navbar .navbar-toggler-icon i {
   color: goldenrod;
   margin-top: 5px;
 }
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
+.navbar .navbar-nav .active > .nav-link,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link.show,
+.navbar .navbar-nav .show > .nav-link {
   color: goldenrod;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar .navbar-nav .nav-link:hover {
   color: goldenrod;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar .navbar-nav .nav-link {
   color: goldenrod;
 }
 .dropdown-item {
@@ -120,5 +157,23 @@ export default {
   white-space: nowrap;
   background-color: transparent;
   border: 0px;
+}
+.btns {
+  display: flex;
+}
+.cartBtn {
+  margin-left: 10px;
+}
+.cartBtn .cartIcon {
+  display: flex;
+}
+.cartBtn .cartIcon p {
+  color: #ffff;
+}
+.cartBtn .cartIcon .router i {
+  font-size: 25px;
+  margin: auto;
+  padding-top: 5px;
+  color: goldenrod;
 }
 </style>

@@ -1,20 +1,22 @@
 <template>
   <div>
-    <food-slider />
-    <Menu />
+    <Intro />
   </div>
 </template>
 
 <script>
-import FoodSlider from '@/components/FoodSlider.vue'
-import Menu  from '@/components/Menu.vue'
+import Intro  from '@/components/Intro.vue'
 
 
 export default {
   components: {
-    FoodSlider,
-    Menu
-  }
+    Intro,
+  },
+  data() {
+    return {
+      search: "",
+    };
+  },
 };
 </script>
 

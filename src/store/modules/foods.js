@@ -19,6 +19,7 @@ function updateLocalStorage(cart) {
 }
 
 const state = {
+  
   foods: [
     {
       id: 1,
@@ -185,6 +186,7 @@ const state = {
   ],
   singleFood: null,
   cart: [],
+  wishList: [],
   current: null,
   counter: 0
 };
@@ -217,6 +219,20 @@ const mutations = {
     updateLocalStorage(state.cart)
   },
 
+  addToWishList: (state, { food, quantity }) => {
+    let foodInWishList = state.wishList.find(item => {
+      return item.food.id == food.id;
+    });
+
+    if (foodInWishList) {
+      foodInWishList.quantity += quantity;
+      return
+    }
+    state.wishList.push({
+      food, quantity
+    });
+  },
+
   // removeFoodFromCart: (state, food) => {
   //   state.cart = state.cart.filter(elem => {
   //     return elem.food.id !== food.id
@@ -234,12 +250,31 @@ const mutations = {
         state.cart = state.cart.filter(elem => elem.food.id !== food.id)
       }
     }
+    updateLocalStorage(state.cart)
+  },
+
+  removeFoodFromWishList: (state, food) => {
+    let item = state.wishList.find(elem => elem.food.id === +food.id);
+    if (item) {
+      state.wishList = state.wishList.filter(elem => elem.food.id !== food.id)
+    }
     // updateStorage(state.cart)
   },
 
-  
+
   clearCartItems: state => {
     state.cart = [];
+  },
+
+  clearWishListItems: state => {
+    state.wishList = [];
+  },
+
+  updateCartFromLocalStorage(state) {
+    const cart = localStorage.getItem('cart');
+    if (cart) {
+      state.cart = JSON.parse(cart)
+    }
   }
 
 };
@@ -259,8 +294,10 @@ const actions = {
 
 
 const getters = {
+  newItems: state => state.allItems,
   allCounter: state => state.counter,
   allFoods: state => state.foods,
+  allPlaces: state => state.places,
   allInternationalFoods: state => state.internationalFoods,
   allMenu: state => state.menuList,
   oneFoodItem: state => state.singleFoodItem,
@@ -280,7 +317,7 @@ const getters = {
   foodQuantity: (state, getters) => food => {
     const item = getters.cartItems.find(elem => elem.id === food.id);
 
-    if (item) {      
+    if (item) {
       console.log(item.quantity)
       return item.quantity
     }
@@ -302,7 +339,7 @@ const getters = {
   cartTotal: state => {
     return state.cart.reduce((a, b) => {
       a + (b.price * b.quantity)
-    },0)
+    }, 0)
   },
 
   cartTotalPrice: state => {
@@ -317,7 +354,15 @@ const getters = {
 
   foodCount: (state, getters) => {
     return getters.allFoods.length
-  }
+  },
+
+  wishListItems: state => {
+    return state.wishList
+  },
+
+  wishListCount: state => {
+    return state.wishList.length;
+  },
 
 };
 

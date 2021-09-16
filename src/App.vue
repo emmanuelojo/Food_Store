@@ -13,12 +13,21 @@ export default {
   components: {
     AppHeader,
     Footer
+  },
+  mounted() {
+    this.$store.commit('updateCartFromLocalStorage')
   }
+
 }
 </script>
 
 
 <style lang="scss">
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(12, 12, 26);
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

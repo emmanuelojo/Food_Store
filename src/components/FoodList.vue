@@ -8,23 +8,26 @@
     />
     <div class="noItem" v-if="!filteredFoods.length">
       <div class="col-8">
-        <h3>No food with that name</h3>
+        <h3>Your Search Results: </h3>
+        <h5>No food with that name</h5>
       </div>
     </div>
-    <div v-else class="d-flex align-items-stretch flex-wrap">
+    <div v-else id="foodlist" class="d-flex align-items-stretch flex-wrap">
+      <div v-for="food in newItems" :key="food.id">
+        <p> {{ food.name}} </p>
+      </div>
       <food-card v-for="food in filteredFoods" :key="food.id" :food="food" />
     </div>
   </div>
-  <!-- <div class="noItem" v-if="!reviews.length">
-    <div class="col-8">
-      <h3>No food with that name</h3>
-    </div>
-  </div> -->
 </template>
 
 <script>
 import FoodCard from "./FoodCard";
 export default {
+  // props: ['search'],
+  // props: {
+  //   search: String
+  // },
   components: {
     FoodCard,
   },
@@ -37,6 +40,13 @@ export default {
     foods() {
       return this.$store.getters.allFoods;
     },
+    places() {
+      return this.$store.getters.allPlaces;
+    },
+    newItems() {
+      return this.$store.getters.newItems;
+    },
+    
     filteredFoods() {
       return this.foods.filter((food) => {
         // return food.title.match(this.search);
@@ -44,6 +54,9 @@ export default {
       });
     },
   },
+  beforeMount(){
+    console.log("search is here", typeof this.search)
+  }
 };
 </script>
 
@@ -59,12 +72,27 @@ input[type="text"] {
 input[type="text"]:focus {
   border-radius: 5px;
   border: 2px solid #000;
+  border: none;
+  outline: none;
 }
 .noItem {
   /* top: 50%;
   left: 50%; */
   display: flex;
   justify-content: center;
-  margin: 150px auto;
+  margin-top: 50px;
+  margin-left: 150px auto;
+  margin-right: 150px auto;
+  /* margin-bottom: 14%; */
+  margin-bottom: 100vh;
+  color: #fff;
 }
+#foodlist{
+  margin-bottom: 100px
+}
+/* @media screen and (max-width: 850px) {
+  .noItem {
+    margin-bottom: 67%;
+  };
+} */
 </style>
