@@ -98,7 +98,9 @@
           />
         </div>
         <br /><br /><br /><br /><br />
+        <!-- working below -->
         <div class="paypal" ref="paypal"></div>
+        <!-- <button> Checkout </button> -->
         <!-- <router-link to="/checkout"> Checkout </router-link> -->
 
         <!-- <div class="checkout">
@@ -258,6 +260,7 @@ export default {
 }
 .noItem h5 {
   margin-top: 50px;
+  margin-bottom: 50vh;
 }
 .cartlist div {
   display: flex;
@@ -319,13 +322,13 @@ export default {
   background: #fff;
 }
 
-.checkout,
+/* .checkout,
 button {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
 }
-/* .checkout a,
+.checkout a,
 button {
   background: blue;
   color: white;

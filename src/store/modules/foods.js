@@ -264,6 +264,8 @@ const mutations = {
 
   clearCartItems: state => {
     state.cart = [];
+    
+    updateLocalStorage(state.cart)
   },
 
   clearWishListItems: state => {
