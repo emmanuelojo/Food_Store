@@ -115,22 +115,31 @@
         >
           <div class="images-holder">
             <div class="card">
-              <img src="@/assets/images/sandwich.jpg" alt="">
+              <img src="@/assets/images/sandwich.jpg" alt="" />
               <h4>Breakfast One</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/food6.jpg" alt="">
+              <img src="@/assets/images/food6.jpg" alt="" />
               <h4>Breakfast Two</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/veggieToast.jpg" alt="">
+              <img src="@/assets/images/veggieToast.jpg" alt="" />
               <h4>Breakfast Three</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
           </div>
         </div>
@@ -142,22 +151,31 @@
         >
           <div class="images-holder">
             <div class="card">
-              <img src="@/assets/images/jollof.jpeg" alt="">
+              <img src="@/assets/images/jollof.jpeg" alt="" />
               <h4>Lunch One</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/ofada.jpeg" alt="">
+              <img src="@/assets/images/ofada.jpeg" alt="" />
               <h4>Lunch Two</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/beans.jpeg" alt="">
+              <img src="@/assets/images/beans.jpeg" alt="" />
               <h4>Lunch Three</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
           </div>
         </div>
@@ -169,22 +187,31 @@
         >
           <div class="images-holder">
             <div class="card">
-              <img src="@/assets/images/swallow.jpeg" alt="">
+              <img src="@/assets/images/swallow.jpeg" alt="" />
               <h4>Dinner One</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/moimoi.jpeg" alt="">
+              <img src="@/assets/images/moimoi.jpeg" alt="" />
               <h4>Dinner Two</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/sautee.jpg" alt="">
+              <img src="@/assets/images/sautee.jpg" alt="" />
               <h4>Dinner Three</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
           </div>
         </div>
@@ -196,22 +223,31 @@
         >
           <div class="images-holder">
             <div class="card">
-              <img src="@/assets/images/drinks.png" alt="">
+              <img src="@/assets/images/drinks.png" alt="" />
               <h4>Drinks One</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/drinks2.jpg" alt="">
+              <img src="@/assets/images/drinks2.jpg" alt="" />
               <h4>Drinks Two</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/drinks3.jpg" alt="">
+              <img src="@/assets/images/drinks3.jpg" alt="" />
               <h4>Drinks Three</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
           </div>
         </div>
@@ -223,22 +259,31 @@
         >
           <div class="images-holder">
             <div class="card">
-              <img src="@/assets/images/desserts.jpg" alt="">
+              <img src="@/assets/images/desserts.jpg" alt="" />
               <h4>Desserts One</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/desserts5.jpg" alt="">
+              <img src="@/assets/images/desserts5.jpg" alt="" />
               <h4>Desserts Two</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
             <div class="card">
-              <img src="@/assets/images/desserts6.jpg" alt="">
+              <img src="@/assets/images/desserts6.jpg" alt="" />
               <h4>Desserts Three</h4>
-              <p>Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi odit?</p>
-              <h6> N22 </h6>
+              <p>
+                Lorem ipsum dolor sit amet Quis dolorem cumque provident sequi
+                odit?
+              </p>
+              <h6>₦22</h6>
             </div>
           </div>
         </div>
@@ -505,7 +550,7 @@ export default {};
   margin-top: 5px;
   color: #fff;
 }
-#menu .nav{
+#menu .nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -513,37 +558,35 @@ export default {};
   margin-right: auto;
   margin-left: auto;
 }
-#menu .nav .nav-item a{
+#menu .nav .nav-item a {
   color: orange;
 }
 
-.nav-pills .nav-link.active{
+.nav-pills .nav-link.active {
   background: #fff;
 }
 
-
-.images-holder{
+.images-holder {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;margin-top: 50px;
+  flex-wrap: wrap;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-
 }
-.images-holder .card{
+.images-holder .card {
   width: 300px;
   height: 400px;
   margin: 10px 30px;
 }
-.images-holder .card:hover{
+.images-holder .card:hover {
   cursor: pointer;
   /* box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
     0 1px 3px 0 rgb(0 0 0 / 12%); */
-    /* box-shadow: rgb(30, 30, 53); */
-    box-shadow: 0 2px 1px -1px red, 0 1px 1px 0 red,
-    0 1px 3px 0 red;
+  /* box-shadow: rgb(30, 30, 53); */
+  box-shadow: 0 2px 1px -1px red, 0 1px 1px 0 red, 0 1px 3px 0 red;
 }
-.images-holder .card img{
+.images-holder .card img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -552,10 +595,14 @@ export default {};
   margin-left: auto;
   margin-right: auto;
 }
-.images-holder .card h4{
+.images-holder .card h4 {
   margin-top: 10px;
 }
-.images-holder .card h6{
+.images-holder .card p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.images-holder .card h6 {
   color: #000;
   letter-spacing: 1px;
 }
@@ -610,12 +657,15 @@ export default {};
   margin-top: 0;
 }
 .reviewer-details h4 {
+  display: flex;
   color: #fff;
-  margin-left: -35px;
+  /* margin-left: -35px; */
 }
 .reviewer-details p {
+  display: flex;
   color: gray;
-  margin-left: -10px;
+  margin-left: -15px;
+  font-weight: 600;
 }
 
 .reviewer img {
@@ -680,22 +730,27 @@ export default {};
   border-radius: 10px;
   width: 350px;
   height: 350px;
-  margin: 10px;
+  /* margin: 10px; */
+  margin: 50px auto;
   transition: 0.3s ease-in;
 }
 
 .chefs .card img {
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
 
 .chefs .card .chef-details {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 30px;
+  bottom: -45px;
   width: 80%;
-  margin-top: -45px;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 10px;
   background: rgb(30, 30, 53);
   transition: 0.3s ease-in;
@@ -714,10 +769,14 @@ export default {};
   flex-wrap: wrap;
   color: #fff;
 }
+.chefs .card:hover {
+  cursor: pointer;
+}
 .chefs .card:hover .chef-details {
-  margin-top: -91px;
+  bottom: 0;
+  /* margin-top: -91px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   border-radius: 10px;
   background: orange;
   transition: 0.3s ease-in;
@@ -726,42 +785,42 @@ export default {};
   .intro {
     margin-top: -110%;
   }
-  .intro h3{
+  .intro h3 {
     font-size: 25px;
   }
-  .intro p{
+  .intro p {
     font-size: 14px;
   }
   .intro a {
     margin-top: 20px;
   }
 
-  #about{
+  #about {
     margin-top: 0px;
   }
-  .about{
+  .about {
     display: grid;
     width: 100%;
   }
   .about-msg {
     width: 100%;
   }
-  
-  .about .about-msg p{
+
+  .about .about-msg p {
     margin-top: 20px;
   }
-  .about img{
+  .about img {
     width: 330px;
   }
 
-  .chefs .card{
+  .chefs .card {
     width: 330px;
     height: 300px;
     margin: 50px 0;
   }
-  .chefs .card img{
+  .chefs .card img {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
     /* width: 330px; */
   }
@@ -770,27 +829,27 @@ export default {};
   .intro {
     margin-top: -55%;
   }
-  .intro h3{
+  .intro h3 {
     font-size: 25px;
   }
-  .intro p{
+  .intro p {
     font-size: 14px;
   }
   .intro a {
     margin-top: 20px;
   }
 
-  #about{
+  #about {
     margin-top: 150px;
   }
-  .about{
+  .about {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
   }
-  .about img{
+  .about img {
     width: 330px;
   }
 
@@ -801,12 +860,12 @@ export default {};
     margin-left: auto;
     margin-right: auto;
   }
-  
-  .images-holder .card{
+
+  .images-holder .card {
     width: 250px;
   }
 
-  .reviews{
+  .reviews {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -814,11 +873,11 @@ export default {};
     margin-right: auto;
   }
 
-  .reviews .card{
-    width: 250px
+  .reviews .card {
+    width: 250px;
   }
 
-  .chefs{
+  .chefs {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -826,14 +885,14 @@ export default {};
     margin-right: auto;
   }
 
-  .chefs .card{
+  .chefs .card {
     width: 330px;
     height: 300px;
     margin: 70px 5px;
   }
-  .chefs .card img{
+  .chefs .card img {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
     /* width: 330px; */
   }

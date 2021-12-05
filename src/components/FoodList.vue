@@ -4,7 +4,7 @@
       type="text"
       class="search-bar"
       v-model="search"
-      placeholder="Search food items"
+      placeholder="Search..."
     />
     <div class="noItem" v-if="!filteredFoods.length">
       <div class="col-8">
